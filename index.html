@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotoğraf Paylaşım Platformu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Fotoğraf Paylaşım Platformu</h1>
+        <button id="adminPanelButton" class="adminButton">Yönetim Paneli</button>
+    </header>
+    <!-- Kullanım Şartları Mesajı -->
+    <div id="welcomeMessage" class="welcomeMessage">
+        <p><strong>Bu platformu kullanarak aşağıdaki kullanım şartlarını kabul etmiş sayılırsınız:</strong></p>
+        <ol>
+            <li>+18 içerik paylaşımı kesinlikle yasaktır.</li>
+            <li>Küfür, taciz veya nefret söylemi içeren içerikler yasaktır.</li>
+            <li>Diğer kişisel bilgilerin paylaşımı yasaktır.</li>
+            <li>Platformda paylaşılan içeriklerin sorumluluğu tamamen kullanıcıya aittir.</li>
+            <li>Raporlanan içerikler kontrol edilir ve kurallara aykırı olanlar silinir.</li>
+        </ol>
+    </div>
+    <main>
+        <!-- Paylaşım Alanı -->
+        <section id="feed">
+            <!-- Paylaşımlar burada görünecek -->
+        </section>
+        <section id="uploadSection">
+            <h2>Fotoğraf/GIF Yükle</h2>
+            <form id="uploadForm">
+                <input type="file" id="fileInput" accept="image/*" required>
+                <button type="submit" class="styledButton">Yükle</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Fotoğraf Paylaşım Platformu. Tüm hakları saklıdır.</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
