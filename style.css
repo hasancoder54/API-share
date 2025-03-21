@@ -1,0 +1,98 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Arka plan siyah */
+    color: #fff; /* Yazı beyaz */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.8em;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2);
+}
+
+/* Yönetim Paneli Butonu */
+.adminButton {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50; /* Çerçeve yeşil */
+    border-radius: 8px;
+    background-color: #4CAF50; /* Arka plan yeşil */
+    color: white; /* Yazı beyaz */
+    cursor: pointer;
+    position: fixed; /* Sabit konum */
+    top: 10px;
+    right: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.adminButton:hover {
+    background-color: #388E3C; /* Daha koyu yeşil */
+}
+
+.adminButton:active {
+    transform: scale(0.95); /* Tıklama efekti */
+}
+
+/* İndirme Butonları */
+.downloadButton {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #4CAF50; /* Çerçeve yeşil */
+    border-radius: 8px;
+    background-color: #4CAF50; /* Arka plan yeşil */
+    color: white; /* Yazı beyaz */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    margin: 10px; /* Butonlar arası boşluk */
+}
+
+.downloadButton:hover {
+    background-color: #388E3C; /* Daha koyu yeşil */
+}
+
+.downloadButton:active {
+    transform: scale(0.95);
+}
+
+/* Report Butonu */
+.reportButton {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: 2px solid #B71C1C; /* Çerçeve kırmızı */
+    border-radius: 8px;
+    background-color: #D32F2F; /* Arka plan kırmızı */
+    color: white; /* Yazı beyaz */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.reportButton:hover {
+    background-color: #B71C1C; /* Daha koyu kırmızı */
+}
+
+.reportButton:active {
+    transform: scale(0.95);
+}
+
+/* Fotoğraflar ve Çevresi */
+#feed div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#feed img {
+    border: 2px solid #4CAF50; /* Çerçeve yeşil */
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.3);
+}
